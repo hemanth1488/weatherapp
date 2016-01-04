@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+    <string name="key">3165ab2713851169256df2ce9b70d</string>
+
+</resources>

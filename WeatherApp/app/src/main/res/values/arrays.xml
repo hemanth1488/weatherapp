@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="error">
+        <item>Internet not available</item>
+        <item>Error connecting to the server</item>
+        </string-array>
+    <string-array name="city">
+        <item>Chennai</item>
+        <item>Singapore</item>
+        <item>Kaula lumpur</item>
+        <item>Almont</item>
+        <item>Anamur</item>
+        <item>Ashland</item>
+        <item>Atikokan</item>
+        <item>Badalona</item>
+        <item>Baldwin</item>
+        <item>Bouafle</item>
+        <item>Butterworth</item>
+        <item>Cagdianao</item>
+        <item>Cashel</item>
+        <item>Castelvenere</item>
+        <item>Changwon</item>
+        <item>Chotesov</item>
+        <item>Civate</item>
+        <item>Conde-sur-Sarthe</item>
+        <item>Delitzsch</item>
+        <item>Denham</item>
+        <item>Denton</item>
+        <item>Dobsina</item>
+        <item>Espumoso</item>
+        <item>Gadani</item>
+        <item>Grayson</item>
+        <item>Grou</item>
+        <item>Guasila</item>
+        <item>Hanak</item>
+        <item>Hatten</item>
+        <item>Herrliberg</item>
+        <item>Incourt</item>
+        <item>Ingre</item>
+        <item>Jhulasan</item>
+        <item>Joigny</item>
+        <item>Juma</item>
+        <item>Juybar</item>
+        <item>Karatuzskoye</item>
+        <item>Kasrawad</item>
+        <item>Kesalahti</item>
+        <item>Kochel</item>
+        <item>Kovel</item>
+        <item>Krcedin</item>
+        <item>Lakhi</item>
+        <item>Leconfield</item>
+        <item>Littlefield</item>
+        <item>Livezile</item>
+        <item>Lleida</item>
+        <item>Longkou</item>
+        <item>Madison</item>
+        <item>Maida</item>
+        <item>Milton</item>
+        <item>Morogoro</item>
+        <item>Murun-kuren</item>
+        <item>Najafabad</item>
+        <item>Newport</item>
+        <item>Orsogna</item>
+        <item>Paramaribo</item>
+        <item>Penukonda</item>
+        <item>Perth</item>
+        <item>Pierrefonds</item>
+        <item>Pilisszentkereszt</item>
+        <item>Roztoky</item>
+        <item>Rudnichnyy</item>
+        <item>Schwaan</item>
+        <item>Sibu</item>
+        <item>Siclong</item>
+        <item>Sitarganj</item>
+        <item>Smedby</item>
+        <item>Souppes-sur-Loing</item>
+        <item>Strasslach-Dingharting</item>
+        <item>Tavarede</item>
+        <item>Turki</item>
+        <item>Tussenhausen</item>
+        <item>Varennes-sur-Allier</item>
+        <item>Varzi</item>
+        <item>Volga</item>
+        <item>Vysokyy</item>
+        <item>Waldburg</item>
+        <item>Walthourville</item>
+        <item>Znamenskoye</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherActivity"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:theme="@style/ToolBarStyle"
+
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:onClick="refresh"
+                android:src="@android:drawable/ic_popup_sync"
+                />
+        </RelativeLayout>
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/weather_recycler_view"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scrollbars="vertical" />
+        <RelativeLayout
+            android:id="@+id/drawerrel"
+            android:background="@color/primary"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            >
+
+            <ListView
+                android:id="@+id/city_list"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content" >
+            </ListView>
+        </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
